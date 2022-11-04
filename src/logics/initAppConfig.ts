@@ -2,6 +2,7 @@ import type { ProjectConfig } from '/#/config'
 
 import { useAppStore } from '/@/stores/modules/app'
 import { useUserStore } from '/@/stores/modules/user'
+import { useLocaleStore } from '/@/stores/modules/locale'
 import defaultSetting from '/@/settings/projectSetting'
 import { getToken } from '/@/utils/auth'
 import { updateTheme } from './theme/updateTheme'
@@ -12,7 +13,7 @@ import { KEY_SETTING } from '/@/enums/cacheEnum'
 import { merge } from 'lodash-es'
 import { updateDarkMode } from './theme/updateDarkMode'
 import { ThemeEnum } from '../enums/appEnum'
-import { useLocaleStore } from '../stores/modules/locale'
+
 import WebStorage from '/@/utils/cache'
 
 /**
