@@ -1,12 +1,12 @@
 <template>
   <PageWrapper :content-background="false">
     <ElCard class="px-4">
-      <div class="font-semibold my-4 text-xl">您好, {{ getUsername }}, 欢迎使用方舟管理后台!</div>
+      <div class="font-semibold my-4 text-xl">您好, {{ getUsername }}, 欢迎使用管理后台</div>
       <div class="text-gray-500 my-4 text-sm flex items-center">
         使用文档: <ElLink class="ml-4" type="primary" :href="DOC_SITE">{{ DOC_SITE }}</ElLink>
       </div>
       <div class="text-gray-500 my-4 text-sm flex items-center">
-        前端仓库:
+        前端仓库xxx:
         <ElLink class="ml-4" type="primary" :href="VUE_REPO_GITHUB_URL">{{
           VUE_REPO_GITHUB_URL
         }}</ElLink>
